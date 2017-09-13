@@ -26,7 +26,7 @@ class Daily_Reward extends PluginBase implements Listener
 
     public function onCommand(CommandSender $sender, Command $cmd, $label, array $args)
     {
-        if($cmd->getName()=="reward" or $cmd->getName()=="reward"== "rw")
+        if($cmd->getName()=="reward" or $cmd->getName() == "rw")
 		{
        		$ten = $sender->getName();
         	$player = $sender->getServer()->getPlayer($ten);	
